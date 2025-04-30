@@ -1,4 +1,52 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Isaaq Simon
+* Created on: April 2025
 * This file contains the CSS for index.html
 */
+/* style.css - Styles for the Pentagonal Prism Calculator page */
+
+/* Set background color and base font */
+body {
+    background-color: lightyellow;
+    /* HTML color name */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+}
+
+/* Page title style using RGB */
+h1 {
+    color: rgb(255, 99, 71);
+    /* RGB color */
+}
+
+/* Result heading using HSL */
+h2 {
+    color: hsl(220, 90%, 40%);
+    /* HSL color */
+}
+
+/* Informative paragraph style using HEX */
+p.info {
+    color: #008080;
+    /* HEX color */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Style for labels and input fields */
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style the submit button */
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
